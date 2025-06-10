@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_14789a44b7ddd79be2fc0598afa3d8c7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_14789a44b7ddd79be2fc0598afa3d8c7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_14789a44b7ddd79be2fc0598afa3d8c7 = L.map(
+                "map_14789a44b7ddd79be2fc0598afa3d8c7",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fb4d28e60e74c0c5dbffb1c76d2c9140 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fb4d28e60e74c0c5dbffb1c76d2c9140.addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+            var circle_marker_079a4ed9cc83a3f701723ea2348bf39e = L.circleMarker(
+                [53.3438, -6.2546],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.7, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_0b18b2eacde8450a1bfa97de532086f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a19c3e801e5fff42601abdf55e1927f0 = $(`<div id="html_a19c3e801e5fff42601abdf55e1927f0" style="width: 100.0%; height: 100.0%;">Trinity College (157 mentions)</div>`)[0];
+                popup_0b18b2eacde8450a1bfa97de532086f1.setContent(html_a19c3e801e5fff42601abdf55e1927f0);
+            
+        
+
+        circle_marker_079a4ed9cc83a3f701723ea2348bf39e.bindPopup(popup_0b18b2eacde8450a1bfa97de532086f1)
+        ;
+
+        
+    
+    
+            var circle_marker_8029357f4533c3f9474af340c343b4a7 = L.circleMarker(
+                [13.1056, -59.6136],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.7, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_7e1c248c507b017281b75068d07c917e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15ae883e593d98dd94e6797dc95ecd58 = $(`<div id="html_15ae883e593d98dd94e6797dc95ecd58" style="width: 100.0%; height: 100.0%;">Harrison College (107 mentions)</div>`)[0];
+                popup_7e1c248c507b017281b75068d07c917e.setContent(html_15ae883e593d98dd94e6797dc95ecd58);
+            
+        
+
+        circle_marker_8029357f4533c3f9474af340c343b4a7.bindPopup(popup_7e1c248c507b017281b75068d07c917e)
+        ;
+
+        
+    
+    
+            var circle_marker_1f7ae8044e0436d64e67aa7a7c655e55 = L.circleMarker(
+                [49.1858, -2.109],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.2, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_0f56a30c4d7850548849db03a2303be6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fe6f34fe0826c7ee1f02873206d5bcc = $(`<div id="html_0fe6f34fe0826c7ee1f02873206d5bcc" style="width: 100.0%; height: 100.0%;">Victoria College (72 mentions)</div>`)[0];
+                popup_0f56a30c4d7850548849db03a2303be6.setContent(html_0fe6f34fe0826c7ee1f02873206d5bcc);
+            
+        
+
+        circle_marker_1f7ae8044e0436d64e67aa7a7c655e55.bindPopup(popup_0f56a30c4d7850548849db03a2303be6)
+        ;
+
+        
+    
+    
+            var circle_marker_eee87c4392d9a80fa065d687ba72ea5c = L.circleMarker(
+                [51.8919, -2.0783],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.8, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_389aee8418ee9f33886cdff937d691c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_174d31398abfc48e67a9e81000e1e758 = $(`<div id="html_174d31398abfc48e67a9e81000e1e758" style="width: 100.0%; height: 100.0%;">Cheltenham College (58 mentions)</div>`)[0];
+                popup_389aee8418ee9f33886cdff937d691c3.setContent(html_174d31398abfc48e67a9e81000e1e758);
+            
+        
+
+        circle_marker_eee87c4392d9a80fa065d687ba72ea5c.bindPopup(popup_389aee8418ee9f33886cdff937d691c3)
+        ;
+
+        
+    
+    
+            var circle_marker_9aeb5e017ef4b8aa3c4bea710d536637 = L.circleMarker(
+                [51.3473, -0.8586],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.7, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_7ef7f44528656a720dd32c2fbad3885f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9c30f19ce5b9df4176be91f9a6034bc = $(`<div id="html_c9c30f19ce5b9df4176be91f9a6034bc" style="width: 100.0%; height: 100.0%;">Wellington College (57 mentions)</div>`)[0];
+                popup_7ef7f44528656a720dd32c2fbad3885f.setContent(html_c9c30f19ce5b9df4176be91f9a6034bc);
+            
+        
+
+        circle_marker_9aeb5e017ef4b8aa3c4bea710d536637.bindPopup(popup_7ef7f44528656a720dd32c2fbad3885f)
+        ;
+
+        
+    
+    
+            var circle_marker_85955fd285ef381d099f555c3167a655 = L.circleMarker(
+                [8.4884, -13.2332],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.5, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_b7faeb145872171af308ad1eddbeb8fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc86ff5e6510fe96e99c58d8d584843e = $(`<div id="html_dc86ff5e6510fe96e99c58d8d584843e" style="width: 100.0%; height: 100.0%;">Prince Of Wales School (55 mentions)</div>`)[0];
+                popup_b7faeb145872171af308ad1eddbeb8fe.setContent(html_dc86ff5e6510fe96e99c58d8d584843e);
+            
+        
+
+        circle_marker_85955fd285ef381d099f555c3167a655.bindPopup(popup_b7faeb145872171af308ad1eddbeb8fe)
+        ;
+
+        
+    
+    
+            var circle_marker_32135621af2be51bb6e3a753a2291555 = L.circleMarker(
+                [51.4886, -0.6074],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.4, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_2202c2f842a067987ddcbc44972136be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8681b1bc2979f047cbd22a9e90af917 = $(`<div id="html_b8681b1bc2979f047cbd22a9e90af917" style="width: 100.0%; height: 100.0%;">Eton And Trinity College (54 mentions)</div>`)[0];
+                popup_2202c2f842a067987ddcbc44972136be.setContent(html_b8681b1bc2979f047cbd22a9e90af917);
+            
+        
+
+        circle_marker_32135621af2be51bb6e3a753a2291555.bindPopup(popup_2202c2f842a067987ddcbc44972136be)
+        ;
+
+        
+    
+    
+            var circle_marker_33ebf2f4636bb8a4aebd7125328f7c7a = L.circleMarker(
+                [51.4191, -1.7317],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.9, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_ff6da3a944b19f9d83cb73138c6ed52b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb9a3276465b4d3200afa1a73898223d = $(`<div id="html_fb9a3276465b4d3200afa1a73898223d" style="width: 100.0%; height: 100.0%;">Marlborough College (49 mentions)</div>`)[0];
+                popup_ff6da3a944b19f9d83cb73138c6ed52b.setContent(html_fb9a3276465b4d3200afa1a73898223d);
+            
+        
+
+        circle_marker_33ebf2f4636bb8a4aebd7125328f7c7a.bindPopup(popup_ff6da3a944b19f9d83cb73138c6ed52b)
+        ;
+
+        
+    
+    
+            var circle_marker_d504fb6bf8d51ba57efd69101cbda521 = L.circleMarker(
+                [51.4418, -0.0868],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.8, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_c90296d7ae1411a3f7c2ef50507ba680 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bab7602116070d094f9ca1fa4b4fa3ab = $(`<div id="html_bab7602116070d094f9ca1fa4b4fa3ab" style="width: 100.0%; height: 100.0%;">Dulwich College (48 mentions)</div>`)[0];
+                popup_c90296d7ae1411a3f7c2ef50507ba680.setContent(html_bab7602116070d094f9ca1fa4b4fa3ab);
+            
+        
+
+        circle_marker_d504fb6bf8d51ba57efd69101cbda521.bindPopup(popup_c90296d7ae1411a3f7c2ef50507ba680)
+        ;
+
+        
+    
+    
+            var circle_marker_4c7fd0eac5d87cbcb9364f808cd3b71f = L.circleMarker(
+                [52.5894, -1.9765],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_4858dfa28c8d9c9297c00ef4d481837d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1dc6d3b5d0c4e212e327179bb9386ec = $(`<div id="html_c1dc6d3b5d0c4e212e327179bb9386ec" style="width: 100.0%; height: 100.0%;">King Edward Vi School (36 mentions)</div>`)[0];
+                popup_4858dfa28c8d9c9297c00ef4d481837d.setContent(html_c1dc6d3b5d0c4e212e327179bb9386ec);
+            
+        
+
+        circle_marker_4c7fd0eac5d87cbcb9364f808cd3b71f.bindPopup(popup_4858dfa28c8d9c9297c00ef4d481837d)
+        ;
+
+        
+    
+    
+            var circle_marker_8617c01ea996d37a76e216e8e1030198 = L.circleMarker(
+                [51.4603, -2.6182],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_26801e625d4f08ced01f993c8250b73c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_582689080f70dea8dee3874c03d7f9c0 = $(`<div id="html_582689080f70dea8dee3874c03d7f9c0" style="width: 100.0%; height: 100.0%;">Clifton College (34 mentions)</div>`)[0];
+                popup_26801e625d4f08ced01f993c8250b73c.setContent(html_582689080f70dea8dee3874c03d7f9c0);
+            
+        
+
+        circle_marker_8617c01ea996d37a76e216e8e1030198.bindPopup(popup_26801e625d4f08ced01f993c8250b73c)
+        ;
+
+        
+    
+    
+            var circle_marker_bab2df1d3e16ad611baa0279fe702cf1 = L.circleMarker(
+                [52.1395, -0.4664],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.3, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_a27bd266b455002e8a8367e3a325885d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7773f583fa77e4198488f94444a8384c = $(`<div id="html_7773f583fa77e4198488f94444a8384c" style="width: 100.0%; height: 100.0%;">Bedford School (33 mentions)</div>`)[0];
+                popup_a27bd266b455002e8a8367e3a325885d.setContent(html_7773f583fa77e4198488f94444a8384c);
+            
+        
+
+        circle_marker_bab2df1d3e16ad611baa0279fe702cf1.bindPopup(popup_a27bd266b455002e8a8367e3a325885d)
+        ;
+
+        
+    
+    
+            var circle_marker_f600606367f018a56a32da620c224a29 = L.circleMarker(
+                [51.5721, -0.334],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.3, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_81a79c90f714c2e2d250876375f81053 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e903179369ca4a90402b2883d44787b = $(`<div id="html_6e903179369ca4a90402b2883d44787b" style="width: 100.0%; height: 100.0%;">Harrow And Trinity College (33 mentions)</div>`)[0];
+                popup_81a79c90f714c2e2d250876375f81053.setContent(html_6e903179369ca4a90402b2883d44787b);
+            
+        
+
+        circle_marker_f600606367f018a56a32da620c224a29.bindPopup(popup_81a79c90f714c2e2d250876375f81053)
+        ;
+
+        
+    
+    
+            var circle_marker_d0070452064d0451285678a0d7e1b84a = L.circleMarker(
+                [51.6274, -0.7482],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.1, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_0fa5c4a36f00098075cef906c214fe00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2343daeeab08d89465d2dd3bc640c294 = $(`<div id="html_2343daeeab08d89465d2dd3bc640c294" style="width: 100.0%; height: 100.0%;">Royal Grammar School (31 mentions)</div>`)[0];
+                popup_0fa5c4a36f00098075cef906c214fe00.setContent(html_2343daeeab08d89465d2dd3bc640c294);
+            
+        
+
+        circle_marker_d0070452064d0451285678a0d7e1b84a.bindPopup(popup_0fa5c4a36f00098075cef906c214fe00)
+        ;
+
+        
+    
+    
+            var circle_marker_2a138aee98c3a14fa99970a951592f66 = L.circleMarker(
+                [7.3834, 3.947],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.1, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_f1505b768737b1118b1a513c5570108c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc7ba744a9c072018d9882e8a5fd8e58 = $(`<div id="html_fc7ba744a9c072018d9882e8a5fd8e58" style="width: 100.0%; height: 100.0%;">C.M.S. Grammar School (31 mentions)</div>`)[0];
+                popup_f1505b768737b1118b1a513c5570108c.setContent(html_fc7ba744a9c072018d9882e8a5fd8e58);
+            
+        
+
+        circle_marker_2a138aee98c3a14fa99970a951592f66.bindPopup(popup_f1505b768737b1118b1a513c5570108c)
+        ;
+
+        
+    
+    
+            var circle_marker_6a26a2a312a14aea99f7c754ee9147ea = L.circleMarker(
+                [51.0546, -1.3065],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_8e2f291596e9c286e5d4c9cb1c3f3195 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2ec8d1547d849fe06eed9814de0e1fc = $(`<div id="html_c2ec8d1547d849fe06eed9814de0e1fc" style="width: 100.0%; height: 100.0%;">Winchester College (30 mentions)</div>`)[0];
+                popup_8e2f291596e9c286e5d4c9cb1c3f3195.setContent(html_c2ec8d1547d849fe06eed9814de0e1fc);
+            
+        
+
+        circle_marker_6a26a2a312a14aea99f7c754ee9147ea.bindPopup(popup_8e2f291596e9c286e5d4c9cb1c3f3195)
+        ;
+
+        
+    
+    
+            var circle_marker_e95c737418df7188f01451ebc7d3cab1 = L.circleMarker(
+                [18.0106, -76.7436],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.9, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_65f33ede803b41ff7c6b4df90aa6e369 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09404fe3c872f894f07c0d3bb2e9edee = $(`<div id="html_09404fe3c872f894f07c0d3bb2e9edee" style="width: 100.0%; height: 100.0%;">Jamaica College (29 mentions)</div>`)[0];
+                popup_65f33ede803b41ff7c6b4df90aa6e369.setContent(html_09404fe3c872f894f07c0d3bb2e9edee);
+            
+        
+
+        circle_marker_e95c737418df7188f01451ebc7d3cab1.bindPopup(popup_65f33ede803b41ff7c6b4df90aa6e369)
+        ;
+
+        
+    
+    
+            var circle_marker_64b44daf6332123d5ab996a0cf01f537 = L.circleMarker(
+                [35.8997, 14.5146],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.9, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_96e81beee034575e2940beadfcf985e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec59ea743ce18bd939bc174c2aae0739 = $(`<div id="html_ec59ea743ce18bd939bc174c2aae0739" style="width: 100.0%; height: 100.0%;">Lyceum And Royal University Of Malta (29 mentions)</div>`)[0];
+                popup_96e81beee034575e2940beadfcf985e9.setContent(html_ec59ea743ce18bd939bc174c2aae0739);
+            
+        
+
+        circle_marker_64b44daf6332123d5ab996a0cf01f537.bindPopup(popup_96e81beee034575e2940beadfcf985e9)
+        ;
+
+        
+    
+    
+            var circle_marker_7a3b6692e9523ec9f8a412a456b6af42 = L.circleMarker(
+                [51.7815, -0.0919],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.8, "stroke": true, "weight": 3}
+            ).addTo(map_14789a44b7ddd79be2fc0598afa3d8c7);
+        
+    
+        var popup_232dd76961f8421d5a2743ee8e7c5d3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb4efa94913f8441cb5723073a9859f9 = $(`<div id="html_bb4efa94913f8441cb5723073a9859f9" style="width: 100.0%; height: 100.0%;">Haileybury College (28 mentions)</div>`)[0];
+                popup_232dd76961f8421d5a2743ee8e7c5d3e.setContent(html_bb4efa94913f8441cb5723073a9859f9);
+            
+        
+
+        circle_marker_7a3b6692e9523ec9f8a412a456b6af42.bindPopup(popup_232dd76961f8421d5a2743ee8e7c5d3e)
+        ;
+
+        
+    
+</script>
+</html>
